@@ -1,0 +1,27 @@
+# ==========================
+# Maven / Java build artifacts
+# ==========================
+target/              # Maven build output
+*.class
+
+# ==========================
+# Allure reports
+# ==========================
+allure-results/
+allure-report/
+
+# ==========================
+# Build reports
+# ==========================
+build/
+build/**/reports/
+build/**/tests/
+
+# ==========================
+# IDE / tooling
+# ==========================
+.settings/
+.classpath
+.project
+.idea/
+.vscode/
